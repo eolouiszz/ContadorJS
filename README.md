@@ -1,30 +1,68 @@
-# 🧮 ContadorJS — V1.1  
+# 🧮 ContadorJS — V1.1
 
-Um contador simples, elegante e funcional desenvolvido em **HTML, CSS e JavaScript**.  
-Projeto criado por **Louis**, como estudo inicial de lógica e manipulação de DOM.  
-Esta é apenas a **versão V1**, pois planejo refazer o projeto futuramente usando **React** e depois **React + TypeScript**.
+**ContadorJS** é um **contador elegante e funcional** desenvolvido com **HTML, CSS e JavaScript**.  
+Criado por **Louis** como um projeto de estudo para aprender **manipulação de DOM, lógica de programação e design moderno**.  
+
+Esta é a **versão V1**, com foco em aprendizado. Futuramente será refeito usando **React** e depois **React + TypeScript**.
 
 ---
 
 ## 🚀 Funcionalidades
-- Incrementar valor  
-- Decrementar valor  
-- Resetar para zero  
-- Sistema de mensagens de aviso  
-- Interface moderna com efeito *glass*  
-- Totalmente responsivo  
+
+- Incrementar e decrementar valores  
+- Resetar o contador para zero  
+- Sistema de mensagens de aviso ao atingir limites  
+- Interface moderna com efeito *glassmorphism*  
+- Animações suaves e responsivas  
+- Feedback visual com cores e efeitos de destaque  
 
 ---
 
 ## 🛠 Tecnologias Utilizadas
-- **HTML5**  
-- **CSS3** (Glassmorphism + transições)  
-- **JavaScript (Vanilla JS)**  
+
+- **HTML5** — Estrutura semântica e acessível  
+- **CSS3** — Glassmorphism, gradientes e transições  
+- **JavaScript (Vanilla JS)** — Lógica do contador, eventos e interatividade  
 
 ---
 
-## 📘 Observações do Autor
-Este projeto — assim como outros que estou desenvolvendo — é focado em **estudo e revisão**, por isso a simplicidade.  
-Ainda pretendo criar projetos mais únicos, estruturados e complexos no futuro.
+## ⚡ Como Usar
+
+1. Clone ou baixe o repositório  
+2. Abra o arquivo `index.html` no navegador  
+3. Use os botões **+**, **-** e **Reset** para interagir  
+4. Também é possível usar o teclado:
+   - `+` ou `=` → Incrementar  
+   - `-` → Decrementar  
+   - `R` → Resetar  
+
+---
+
+## 📌 Observações do Autor
+
+Este projeto é focado **em aprendizado e prática**, priorizando simplicidade e clareza.  
+É uma base para projetos futuros mais avançados, utilizando **React** e **TypeScript**, com funcionalidades e design aprimorados.
+
+---
+
+## 📂 Estrutura do Projeto
+
+ContadorJS/
+├─ index.html
+├─ style.css
+├─ script.js
+└─ README.md
+
+
+---
+
+## 🎯 Próximos Passos
+
+- Reescrever o projeto em **React**  
+- Adicionar **TypeScript** para tipagem e segurança  
+- Implementar **persistência de dados** (localStorage ou backend)  
+- Melhorar a **responsividade e animações**  
+
+---
 
 — **Louis**
