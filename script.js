@@ -4,26 +4,19 @@ const diminuir = document.getElementById('diminuir');
 const reset = document.getElementById('reset');
 const errorp = document.getElementById('errorp');
 
-let numero = 0;
+let numero = Number(localStorage.getItem('contador')) || 0;
 const minValor = 0;
 const maxValor = 999;
 
-// Função para atualizar o display
 function atualizarDisplay() {
     valor.textContent = numero;
-
-    // Animação rápida de "pop"
     valor.style.transform = 'scale(1.2)';
     setTimeout(() => valor.style.transform = 'scale(1)', 150);
-
-    // Cor dependendo do valor
     valor.style.color = numero > 0 ? '#2ecc71' : '#fff';
-    
-    // Limpa mensagem de erro
     errorp.textContent = '';
+    localStorage.setItem('contador', numero);
 }
 
-// Evento do botão aumentar
 aumentar.addEventListener('click', () => {
     if (numero < maxValor) {
         numero++;
@@ -33,7 +26,6 @@ aumentar.addEventListener('click', () => {
     }
 });
 
-// Evento do botão diminuir
 diminuir.addEventListener('click', () => {
     if (numero > minValor) {
         numero--;
@@ -43,15 +35,15 @@ diminuir.addEventListener('click', () => {
     }
 });
 
-// Evento do botão reset
 reset.addEventListener('click', () => {
     numero = 0;
     atualizarDisplay();
 });
 
-// Controle pelo teclado (+, -, r)
 document.addEventListener('keydown', e => {
     if (e.key === '+' || e.key === '=') aumentar.click();
     if (e.key === '-') diminuir.click();
     if (e.key.toLowerCase() === 'r') reset.click();
 });
+
+atualizarDisplay();

@@ -29,7 +29,7 @@ Esta é a **versão V1**, com foco em aprendizado. Futuramente será refeito usa
 ## ⚡ Como Usar
 
 1. Clone ou baixe o repositório  
-2. Abra o arquivo `index.html` no navegador  
+2. Abra o arquivo `index.html` no navegador(uso liveserver) 
 3. Use os botões **+**, **-** e **Reset** para interagir  
 4. Também é possível usar o teclado:
    - `+` ou `=` → Incrementar  
@@ -42,26 +42,6 @@ Esta é a **versão V1**, com foco em aprendizado. Futuramente será refeito usa
 
 Este projeto é focado **em aprendizado e prática**, priorizando simplicidade e clareza.  
 É uma base para projetos futuros mais avançados, utilizando **React** e **TypeScript**, com funcionalidades e design aprimorados.
-
----
-
-## 📂 Estrutura do Projeto
-
-ContadorJS/
-├─ index.html
-├─ style.css
-├─ script.js
-└─ README.md
-
-
----
-
-## 🎯 Próximos Passos
-
-- Reescrever o projeto em **React**  
-- Adicionar **TypeScript** para tipagem e segurança  
-- Implementar **persistência de dados** (localStorage ou backend)  
-- Melhorar a **responsividade e animações**  
 
 ---
 
