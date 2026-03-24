@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContadorJS - Louis</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>ContadorJS <span class="version">V1.1</span></h1>
+            <p class="subtitle">Simples, elegante e funcional.<br>Primeira versão desse código!</p>
+        </header>
+
+        <div class="counter-wrapper">
+            <div class="counter-box">
+
+                <button id="diminuir" class="btn btn-minus">−</button>
+
+                <div class="value-container">
+                    <span id="valor">0</span>
+                </div>
+
+                <button id="aumentar" class="btn btn-plus">+</button>
+
+            </div>
+
+            <div class="actions">
+                <button id="reset" class="btn-reset">Recomeçar</button>
+            </div>
+
+            <div id="errorp" class="message-area"></div>
+
+            <footer class="footer">
+                Desenvolvido por <strong>Louis</strong>
+            </footer>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
